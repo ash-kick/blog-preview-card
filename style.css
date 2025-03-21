@@ -1,7 +1,17 @@
+.figtree-font {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500, 800;
+    font-style: normal;
+  }
+
 html, body {
     background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
 }
 
 main {
     background-color: white;
+    padding: 20px;
 }
