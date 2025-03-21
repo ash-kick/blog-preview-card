@@ -22,6 +22,10 @@ main {
     background-color: white;
     padding: 20px;
     border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 5px 5px black;
 }
 
 button {
@@ -79,7 +83,7 @@ button {
 }
 @media(min-width: 600px){
     main {
-        width: 25rem;
+        width: 23rem;
         height: 35rem;
     }
 
