@@ -24,6 +24,14 @@ main {
     border-radius: 15px;
 }
 
+button {
+    background-color:hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: 800;
+}
+
 .content-description {
     font-size: 18px;
     line-height: 1.5;
@@ -32,13 +40,38 @@ main {
 
 .main-image {
     border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.course-title {
+    font-size: 26px;
+}
+
+.course-title:hover {
+    color:hsl(47, 88%, 63%);
+}
+
+.author-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.author-headshot {
+    height: 10%;
+    width: 10%;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.author-name {
+    font-weight: 800;
 }
 
 
 @media(max-width: 600px){
     main {
         width: 20rem;
-        height: 35rem;
+        height: 32rem;
     }
     .main-image{
         width: 100%;
