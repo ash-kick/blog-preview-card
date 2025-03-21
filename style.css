@@ -9,9 +9,48 @@ html, body {
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", sans-serif;
     font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
 }
 
 main {
     background-color: white;
     padding: 20px;
+    border-radius: 15px;
+}
+
+.content-description {
+    font-size: 18px;
+    line-height: 1.5;
+    color: hsl(0, 0%, 42%);
+}
+
+.main-image {
+    border-radius: 10px;
+}
+
+
+@media(max-width: 600px){
+    main {
+        width: 20rem;
+        height: 35rem;
+    }
+    .main-image{
+        width: 100%;
+    }
+}
+@media(min-width: 600px){
+    main {
+        width: 25rem;
+        height: 35rem;
+    }
+
+    .main-image{
+        width: 100%;
+    }
 }
